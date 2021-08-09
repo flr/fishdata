@@ -1,0 +1,19 @@
+Package: fishdata
+Type: Package
+Title: A Collection of Publicly Available FLR datasets
+Version: 0.0.1
+Date: 2021-08-09
+Authors@R: c(
+  person("Iago", "Mosqueira", email = "iago.mosqueira@wur.nl",
+    role = "cre", comment=c(c(ORCID = "0000-0002-3252-0591"))),
+  person("Laurence T.", "Kell", email = "laurie.kell@iccat.int",
+    role = "aut"))
+Description: Fisheries datasets, stored as objects frtom classes defined in
+  multiple FLR packages, are available here for public use.
+Depends:
+  R(>= 4.0),
+  FLCore
+License: EUPL
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
